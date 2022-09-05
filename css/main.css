@@ -1,6 +1,5 @@
-/* FODASE */
 body {
-  background-color: gray;
+  background-color: #1e1e1e;
 }
 
 h1 {
@@ -11,14 +10,14 @@ h1 {
 
 div.grid {
   width: 70%;
-  height: auto;
+  height: 334px;
   margin: auto;
-  border: 0px solid white;
+  border: 0px solid red;
   line-height: 0;
 }
 
 img.grid {
-  width: 24.9%;
+  width: 25%;
   height: auto;
   float: left;
 }
@@ -26,4 +25,13 @@ img.grid {
 img.grid:hover {
   border: 0px solid red;
   width: 24%;
+}
+
+/* Titulo Principal */
+
+div.header {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  border: 1px solid white;
 }
