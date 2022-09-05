@@ -10,19 +10,19 @@ h1 {
 
 div.grid {
   width: 70%;
-  height: auto;
+  height: 332px;
   margin: auto;
-  border: 1px solid white;
+  border: 0px solid white;
   line-height: 0;
 }
 
 img.grid {
-  width: 25%;
+  width: 24.9%;
   height: auto;
   float: left;
 }
 
 img.grid:hover {
-  border: 2px solid red;
+  border: 0px solid red;
   width: 24%;
 }
