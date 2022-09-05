@@ -10,7 +10,7 @@ h1 {
 
 div.grid {
   width: 70%;
-  height: 332px;
+  height: auto;
   margin: auto;
   border: 0px solid white;
   line-height: 0;
