@@ -12,7 +12,7 @@ div {
 
 div.grid {
   width: 70%;
-  height: 334px;
+  height: auto;
   margin: auto;
   border: 0px solid red;
   line-height: 0;
@@ -22,11 +22,12 @@ img.grid {
   width: 25%;
   height: auto;
   float: left;
+  opacity: 0.5;
 }
 
 img.grid:hover {
-  border: 0px solid red;
-  width: 24%;
+  opacity: 1.0;
+  width: 25%;
 }
 
 /* Titulo Principal */
