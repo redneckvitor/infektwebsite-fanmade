@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(45, 45, 45, 1);
+  background-color: rgba(32, 32, 37, 1);
 }
 
 div {
@@ -12,7 +12,7 @@ div {
 
 div.grid {
   width: 70%;
-  height: auto;
+  height: 333px;
   margin: auto;
   border: 0px solid red;
   line-height: 0;
@@ -22,7 +22,7 @@ img.grid {
   width: 25%;
   height: auto;
   float: left;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 img.grid:hover {
@@ -79,16 +79,6 @@ h1.lower {
   margin-top: 50px;
   font-size: 310%;
   opacity: 0;
-}
-
-h1.lower:hover {
-  color: LightGray;
-  text-align: center;
-  font-family: "Courier New", monospace;
-  letter-spacing: 5px;
-  margin-top: 50px;
-  font-size: 310%;
-  opacity: 1;
 }
 
 /* A parte mais de baixo do site */
