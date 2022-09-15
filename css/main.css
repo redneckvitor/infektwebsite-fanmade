@@ -1,5 +1,9 @@
+/* Default */
 body {
   background-color: rgba(32, 32, 37, 1);
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 div {
@@ -8,27 +12,76 @@ div {
   margin: auto;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1 {
+  
+}
+
 /* Grid dos albums */
 
 div.grid {
   width: 70%;
-  height: 333px;
+  height: auto;
   margin: auto;
-  border: 0px solid red;
-  line-height: 0;
+  display: block;
+  background-color: black;
 }
 
-img.grid {
+.box {
   width: 25%;
-  height: auto;
   float: left;
+}
+
+/* Grid Objects */
+
+.gridobject {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.gridobject_1 {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.gridobject_1:hover {
+  padding: 5px;
+}
+
+.gridobject_2 {
+  width: 100%;
+  margin: auto;
+  display: block;
   opacity: 0.7;
 }
 
-img.grid:hover {
+.gridobject_2:hover {
   opacity: 1.0;
-  width: 25%;
 }
+
+.gridobject_3 {
+  width: 100%;
+  margin: auto;
+  display: block;
+  opacity: 0.8;
+}
+
+.gridobject_3:hover {
+  border: 2px solid black;
+  opacity: 1.0;
+}
+
 
 /* Titulo Principal */
 
